@@ -1,1 +1,1 @@
-# werewolf_cast_discord
+# werewolf_cast_app

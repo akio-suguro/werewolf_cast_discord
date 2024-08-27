@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  web:
+    build: .
+    container_name: jinro_disco_render
+    ports:
+      - "5003:5000"
