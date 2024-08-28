@@ -4,4 +4,4 @@ services:
     build: .
     container_name: jinro_disco_render
     ports:
-      - "5003:5000"
+      - "5000:5000"
