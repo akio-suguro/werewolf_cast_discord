@@ -9,7 +9,10 @@ COPY app app
 RUN pip install -r requirements.txt
 
 # ポート開放 (uvicornで指定したポート)
-EXPOSE 8080
+EXPOSE 8000
+
+# FastAPIサーバーを起動
+CMD ["python", "app/server.py"]
 
 # アプリケーションを起動
-CMD ["python", "app/app.py"]
+#CMD ["python", "app/app.py"]
